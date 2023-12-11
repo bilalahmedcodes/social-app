@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Traits\ConnectionsTrait;
 
 class HomeController extends Controller
 {
+    use ConnectionsTrait;
     /**
      * Create a new controller instance.
      *
